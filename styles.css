@@ -1,0 +1,53 @@
+.frame {
+  display: flex;
+  position: relative;
+}
+
+.top-left {
+  background: url('ramkaLVU.png') top left no-repeat;
+}
+
+.top-right {
+  background: url('ramkaPVB.png') top right no-repeat;
+}
+
+.bottom-left {
+  background: url('rankaLNU.png') bottom left no-repeat;
+}
+
+.bottom-right {
+  background: url('ramkaNPU.png') bottom right no-repeat;
+}
+
+.top {
+  background: url('ramkaVer.png') top repeat-x;
+}
+
+.bottom {
+  background: url('ramkaniz1.png') bottom repeat-x;
+}
+
+.left {
+  background: url('ramkaLB.png') left repeat-y;
+}
+
+.right {
+  background: url('ramkaPB.png') right repeat-y;
+}
+
+.inner-content {
+  padding: 50px;
+  background-color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  margin: 0 0 1em;
+}
